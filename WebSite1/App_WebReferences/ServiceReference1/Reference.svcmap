@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e490ff87-6ea3-4182-9644-fde627654631" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="150edf11-2ae0-4be6-a810-c0f3c9b1e673" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
     <EnableDataBinding>true</EnableDataBinding>
     <ExcludedTypes />
     <ImportXmlTypes>false</ImportXmlTypes>
@@ -18,14 +19,14 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:51485/MathOperations.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:51595/BooksOperations.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="MathOperations.xsd" MetadataType="Schema" ID="541ec5c7-089d-4fcb-8dec-ffa516ca4ac9" SourceId="1" SourceUrl="http://localhost:51485/MathOperations.svc?xsd=xsd0" />
-    <MetadataFile FileName="MathOperations.wsdl" MetadataType="Wsdl" ID="893187da-869d-4355-a1bd-6fc01f931a30" SourceId="1" SourceUrl="http://localhost:51485/MathOperations.svc?wsdl" />
-    <MetadataFile FileName="MathOperations1.xsd" MetadataType="Schema" ID="4411c4dd-6a35-480a-937c-c93803f48f19" SourceId="1" SourceUrl="http://localhost:51485/MathOperations.svc?xsd=xsd2" />
-    <MetadataFile FileName="MathOperations.disco" MetadataType="Disco" ID="faab9ea7-3706-4da0-a301-4b669d64cf66" SourceId="1" SourceUrl="http://localhost:51485/MathOperations.svc?disco" />
-    <MetadataFile FileName="MathOperations2.xsd" MetadataType="Schema" ID="02cd0b6a-f1cd-43cc-9af2-293c4de6df6f" SourceId="1" SourceUrl="http://localhost:51485/MathOperations.svc?xsd=xsd1" />
+    <MetadataFile FileName="BooksOperations.xsd" MetadataType="Schema" ID="511c9609-8a8d-4c79-b486-4a586256b96e" SourceId="1" SourceUrl="http://localhost:51595/BooksOperations.svc?xsd=xsd2" />
+    <MetadataFile FileName="BooksOperations.disco" MetadataType="Disco" ID="7f2878b0-4356-4ea7-903b-584f0dd75996" SourceId="1" SourceUrl="http://localhost:51595/BooksOperations.svc?disco" />
+    <MetadataFile FileName="BooksOperations1.xsd" MetadataType="Schema" ID="ff366d84-8dbb-4890-8731-d2d195ff185c" SourceId="1" SourceUrl="http://localhost:51595/BooksOperations.svc?xsd=xsd0" />
+    <MetadataFile FileName="BooksOperations2.xsd" MetadataType="Schema" ID="c4570436-3436-46cc-8b73-8a293c3f0d1d" SourceId="1" SourceUrl="http://localhost:51595/BooksOperations.svc?xsd=xsd1" />
+    <MetadataFile FileName="BooksOperations.wsdl" MetadataType="Wsdl" ID="f6cb6de9-3718-474c-b6a5-0f298f29e2ba" SourceId="1" SourceUrl="http://localhost:51595/BooksOperations.svc?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
